@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Framework Shootout - Tailwind CSS</title>
+  </head>
+  <body class="bg-blue-100">
+    <div class="container bg-white mx-auto h-screen">
+
+      <nav class="px-2 py-3 bg-blue-800 text-white">
+        <div class="container flex justify-between">
+
+          <ul class="flex flex-row list-none">
+            <li>
+              <a  href="#" class="px-3 py-2 flex items-center text-sm hover:opacity-75">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#" class="px-3 py-2 flex items-center text-sm hover:opacity-75">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#" class="px-3 py-2 flex items-center text-sm hover:opacity-75">
+                Contact
+              </a>
+            </li>
+          </ul>
+
+          <a class="text-3xl inline-block fl" href="#">
+            Logo
+          </a>
+        </div>
+      </nav>
+
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4 p-4 text-gray-600">
+
+        <div class="flex flex-1 flex-col justify-between p-6 shadow-md bg-white h-80">
+          <div>
+            <h2 class="text-2xl mb-2">Card 1</h2>
+            <p class="text-base mb-4">
+              This is card 1 and it is one of three.
+            </p>
+          </div>
+          <div class="">
+            <a href="#" class="text-sky-500">This is a link</a>
+          </div>
+        </div>
+
+        <div class="flex flex-1 flex-col justify-between p-6  shadow-md bg-white">
+          <div>
+            <h2 class="text-2xl mb-2">Card 2</h2>
+            <p class="text-base mb-4">
+              This one is in the middle and has a button.
+            </p>
+          </div>
+          <div>
+            <button type="button" class=" inline-block px-6 py-2.5 bg-sky-500 text-white text-sm uppercase shadow-lg hover:bg-blue-700 hover:shadow-xl focus:bg-blue-700 focus:shadow-xl focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">
+              Click here
+            </button>
+          </div>
+      </div>
+
+        <div class="flex flex-1 flex-col justify-between p-6  shadow-md bg-white">
+          <div>
+            <h2 class="text-2xl mb-2">Card 3</h2>
+            <p class="text-base mb-4">
+              And this column is at the end.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
