@@ -1,0 +1,11 @@
+
+$primary: #304fdd;
+$body-bg: #e8f8fc;
+
+$enable-rounded: false;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.card {
+  min-height: 270px;
+}
