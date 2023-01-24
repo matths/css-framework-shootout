@@ -18,17 +18,13 @@ npm run dev
 ```
 
 ### Materialize 1.0
-![](screenshots/materialize-css-01.JPG|width=360px)
-![](screenshots/materialize-css-02.JPG|width=180px)
+<img src="screenshots/materialize-css-01.JPG" width="360" /> <img src="screenshots/materialize-css-02.JPG" width="180" />
 
 ### Tailwind 3.2
-![](screenshots/tailwind-css-01.JPG|width=360px)
-![](screenshots/tailwind-css-02.JPG|width=180px)
+<img src="screenshots/tailwind-css-01.JPG" width="360" /> <img src="screenshots/tailwind-css-02.JPG" width="180" />
 
 ### Bootstrap 5
-![](screenshots/bootstrap-01.JPG|width=360px)
-![](screenshots/bootstrap-02.JPG|width=180px)
-
+<img src="screenshots/bootstrap-01.JPG" width="360" /> <img src="screenshots/bootstrap-02.JPG" width="180" />
 
 ## Original Vanilla JS Vite Setup for different CSS Frameworks
 
