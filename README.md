@@ -17,6 +17,19 @@ npm run dev
 [meta+click URL provided to open in browser]
 ```
 
+### Materialize 1.0
+![](screenshots/materialize-css-01.JPG|width=360px)
+![](screenshots/materialize-css-02.JPG|width=180px)
+
+### Tailwind 3.2
+![](screenshots/tailwind-css-01.JPG|width=360px)
+![](screenshots/tailwind-css-02.JPG|width=180px)
+
+### Bootstrap 5
+![](screenshots/bootstrap-01.JPG|width=360px)
+![](screenshots/bootstrap-02.JPG|width=180px)
+
+
 ## Original Vanilla JS Vite Setup for different CSS Frameworks
 
 ### Materialize 1.0
