@@ -4,10 +4,59 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>CSS Framework Shootout - Materialize CSS</title>
   </head>
-  <body>
-    <div id="app"></div>
+  <body class="blue lighten-5">
+    <div class="container white">
+
+      <nav>
+        <div class="nav-wrapper blue darken-4">
+          <a href="" class="brand-logo right">Logo</a>
+          <ul class="left hide-on-med-and-down">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="row">
+
+        <div class="col s6 m4">
+          <div class="card small">
+            <div class="card-content">
+              <span class="card-title">Card 1</span>
+              <p>This is card 1 and it is one of three.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s6 m4">
+          <div class="card small">
+            <div class="card-content">
+              <span class="card-title">Card 2</span>
+              <p>This one is in the middle and has a button.</p>
+            </div>
+            <div class="card-action">
+              <button class="btn">Click here</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s6 m4">
+          <div class="card small">
+            <div class="card-content">
+              <span class="card-title">Card 3</span>
+              <p>And this column is at the end.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
