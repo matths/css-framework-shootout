@@ -79,3 +79,21 @@ import 'style.scss'
 // Import all of Bootstrap's JS
 import * as bootstrap from 'bootstrap'
 ```
+
+### Pico.css
+
+```bash
+npm create vite@latest pico-css -- --template vanilla
+cd pico-css
+npm i --save-dev @picocss/pico
+npm i --save-dev sass
+echo "import './style.scss'" > main.js
+rm style.css
+touch style.scss
+```
+
+content of style.scss
+
+```scss
+@import "@picocss/pico/scss/pico";
+```

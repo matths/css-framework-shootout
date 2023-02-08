@@ -1,0 +1,18 @@
+
+$primary-hue: 210;
+
+@import "@picocss/pico/scss/pico";
+
+body > .container {
+  padding-top: 0;
+}
+
+.container > nav{
+  background-color: $primary-800;
+  padding-left: var( --spacing);
+  padding-right: var( --spacing);
+
+  > * {
+    color: white;
+  }
+}
