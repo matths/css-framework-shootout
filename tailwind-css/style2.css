@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav.nav-main {
+  @apply px-2 py-3 bg-blue-800 text-white;
+}
+
+nav.nav-main > div {
+  @apply container flex justify-between;
+}
+
+nav.nav-main > div > ul {
+  @apply flex flex-row list-none;
+}
+
+nav.nav-main > div > a {
+  @apply text-3xl inline-block;
+}
+
+nav.nav-main > div > ul > li > a {
+  @apply px-3 py-2 flex items-center text-sm hover:opacity-75;
+}
+
+body {
+  @apply bg-blue-100;
+}
+
+body > .container {
+  @apply bg-white mx-auto h-screen;
+}
+
+.cards {
+  @apply grid grid-cols-2 md:grid-cols-3 gap-4 p-4 text-gray-600;  
+}
+
+.card {
+  @apply flex flex-1 flex-col justify-between p-6 shadow-md bg-white h-80;
+}
+
+.card h2 {
+  @apply text-2xl mb-2;
+}
+
+.card p {
+  @apply text-base mb-4;
+}
+
+.card button{
+  @apply inline-block px-6 py-2.5 bg-sky-500 text-white text-sm uppercase shadow-lg hover:bg-blue-700 hover:shadow-xl focus:bg-blue-700 focus:shadow-xl focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out;
+}
